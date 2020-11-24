@@ -39,10 +39,8 @@ for Q in crip:  # retiro a mensagem que foi criptografada e o valor apresentado 
 for c1 in range(0, TAMANHO, 1):  # contar novamente para realizar a descriptografia.
     decript.append(chr(DECRIP[c1]))  # utilizado para transformar o número representado na tabela ASCII
     # em um novo vetor com seu determinado caractere ja convertido.
-# Chave para descriptografar = 4240
 # Chave para decifrar = 4240
-# Chave para descriptografar = 4240
-# Chave para decifrar = 4240
+
 
 while N1 != M:  # Enquanto N1  que vai ser digitado pelo usuário for diferente de 4240, entrara em um laço
     # para verificar autenticidade do caractere digitado.
