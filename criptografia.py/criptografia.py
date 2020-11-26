@@ -38,8 +38,6 @@ for c1 in range(0, TAMANHO, 1):  # contar novamente para realizar a descriptogra
     decript.append(chr(DECRIP[c1]))  # utilizado para transformar o número representado na tabela ASCII
     # em um novo vetor com seu determinado caractere ja convertido.
 # Chave para decifrar = 4240
-
-
 while N1 != M:  # Enquanto N1  que vai ser digitado pelo usuário for diferente de 4240, entrara em um laço
     # para verificar autenticidade do caractere digitado.
     N1 = int(input('\n\033[1;33mDigite a senha para decodificar: \033[m '))
