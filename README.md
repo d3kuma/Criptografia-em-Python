@@ -32,4 +32,3 @@ Cifra = (A ^ E) mod N
 E descifrar:
 
 Descrip = (Cifra ^ D) mod N
-
