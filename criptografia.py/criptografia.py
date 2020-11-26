@@ -20,10 +20,9 @@ for c in range(0, TAMANHO, 1):  # Contar de 0 até o que foi definido pela vari�
     q = 107  # 2º Segundo número Primo
     n = p * q  # Multiplicar para obter o número N que vai ser utilizado para codificar e decodificar.
     M = ((p - 1) * (q - 1))
-    E = 3  # O MDC entre E e M precisaria ser um então o escolhido foi o 3.
+    E = 3  # O MDC entre E e M precisaria ser um, então o escolhido foi o 3.
     crip.append((CRIP[c] ** E) % n)
-    while 3 * D % M != 1:  # O resultado apresentado nessa operação tem que ser o resto da divisão 1-
-        v = 3 * D % M != 1  # com isso conseguimos obter a chave privada, a mesma vai ser útilizada-
+    while 3 * D % M != 1:  # O resultado apresentado nessa operação tem que ser o resto da divisão 1-com isso             #conseguimos obter a chave privada, a mesma vai ser útilizada-
         D += 1  # para descriptografar
     DECRIP.append(int(crip[c] ** D) % n)  # Calculo feito para Descriptografar a mensagem, transformamos
     # em a mensagem convertida para a tabela ASCII recebe int e é
