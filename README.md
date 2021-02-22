@@ -2,7 +2,7 @@
 
 Minha primeira criptografia em python, baseada em RSA.
 
-Cálculos para realizar a criptografia em RSA.
+**Cálculos para realizar a criptografia em RSA**
 
 Começamos com a escolha da chave pública, cáculada a partir de dois números primos denominaodps no código da criptogrfia  P e Q, o correto e que eles sejam aleatórios, mas no algoritomo foram escolhidos. Motivo e que após a escolha precisamos achar o E sendo MDC igual a 1. e superior a  255, caso contrario cifra não funconaria. Exemplo de como foi realiado a cifra:
 
