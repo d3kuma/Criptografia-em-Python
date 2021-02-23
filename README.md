@@ -10,19 +10,19 @@ Começamos com a escolha da chave pública, cáculada a partir de dois números 
 
 Após a escolha dos números primos, precisamos achar N, vai ser a multiplicação de P e Q:
 
-```N = P X Q
-N = 4387```
+```N = P X Q```
+```N = 4387```
 
 Agora o E pode ser escolhido de forma aleatória, mas o seu  MDC deve ser igual a 1:
-```
-E = 3
-MDC(E, N) = 1
-```
+
+```E = 3```
+```MDC(E, N) = 1```
+
 Por fim, precisaremos também de D. Mesmo vai ser localizado da seguinte forma E X D  Quando dividido  por  (P -1) X (Q -1), vai precisar dar resto 1. Para facilitar essa conta utilizamos um enquanto E X D mod M != 1, D recebe +1.
 Informamos que M vai receber (P -1) X (Q -1), então:
-```
-E X D = 1 mod(M)
-```
+
+```E X D = 1 mod(M)```
+
 A = caractere digitado pelo usuário, vai ser convertido para a tabela ASCI.
 
 Para cifrar faremos a seguinte conta:
