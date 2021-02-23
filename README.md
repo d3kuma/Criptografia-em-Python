@@ -33,4 +33,4 @@ Para cifrar faremos a seguinte conta:
 
 E decifrar:
 
-Descrip = (Cifra ^ D) mod N
+```Descrip = (Cifra ^ D) mod N```
