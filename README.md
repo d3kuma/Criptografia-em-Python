@@ -10,8 +10,8 @@ Começamos com a escolha da chave pública, cáculada a partir de dois números 
 
 Após a escolha dos números primos, precisamos achar N, vai ser a multiplicação de P e Q:
 
-```N = P X Q```
-```N = 4387```
+```N = P X Q
+N = 4387```
 
 Agora o E pode ser escolhido de forma aleatória, mas o seu  MDC deve ser igual a 1:
 ```
