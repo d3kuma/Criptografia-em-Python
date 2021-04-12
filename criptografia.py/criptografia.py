@@ -1,7 +1,7 @@
 from time import sleep  # Módulo que simula tempo de 2 segundos para criptografar e descriptografar mensagens.
 
 M = N1 = cont = D = 0  # Todos as variáveis começarão com 0, porem no conforme o programa é utilizado
-# cada uma vai ter seu valor definido.
+# cada uma vai ter seu valor definido
 CRIP = []  # Varaivel utilizada para receber o texto convertido em números da tabela ASCII
 crip = []  # Variavel recebe CRIP eleva a D, após isso calcula o resto da divisão por N
 DECRIP = []  # Calculo para descriptografar recebe criptografia, eleva a D, após isso calcula o resto da divisão por N
